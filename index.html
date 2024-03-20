@@ -130,8 +130,18 @@
             margin-left: .6rem;
         }
 
+        .link {
+            color: white !important;
+        }
+
         .link:hover {
             color: white !important;
+        }
+
+        .contactbg {
+            background: url('images/contact.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
         }
     </style>
 </head>
@@ -190,7 +200,7 @@
             <div class="row mt-4">
                 <div class="col-lg-6">
                     <div class="mx-auto">
-                        <img src="images/vinnykumar.jpg" class="col-lg-6 profile_img" alt="">
+                        <img src="images/vinnykumar.jpg" class="col-lg-6 profile_img col-6" alt="">
                     </div>
                     <h1 class="text-center">Vinny Kumar</h1>
                     <p>
@@ -246,7 +256,7 @@
             <div class="col-lg-3 mt-4">
                 <div class="card servicesText">
                     <div class="card-body">
-                        <img src="images/javaintroduction.jpg" class="col-lg-12" />
+                        <img src="images/javaintroduction.jpg" class="col-lg-12 col-6 profile_img" />
                         <h4 class="card-title mt-3">Introduction to Java</h4>
                     </div>
                 </div>
@@ -254,7 +264,7 @@
             <div class="col-lg-3 mt-4">
                 <div class="card servicesText">
                     <div class="card-body">
-                        <img src="images/html.jpg" class="col-lg-12" />
+                        <img src="images/html.jpg" class="col-lg-12 col-6 profile_img" />
                         <h4 class="card-title mt-3">HTML</h4>
                     </div>
                 </div>
@@ -264,7 +274,7 @@
             <div class="col-lg-3 mt-4">
                 <div class="card servicesText">
                     <div class="card-body">
-                        <img src="images/css.jpg" class="col-lg-12" />
+                        <img src="images/css.jpg" class="col-lg-12 col-6 profile_img" />
                         <h5 class="card-title mt-3">Style Sheets - CSS</h5>
                     </div>
                 </div>
@@ -272,7 +282,7 @@
             <div class="col-lg-3 mt-4">
                 <div class="card servicesText">
                     <div class="card-body">
-                        <img src="images/frontend.jpg" class="col-lg-12" />
+                        <img src="images/frontend.jpg" class="col-lg-12 col-6 profile_img" />
                         <h5 class="card-title mt-3">Introduction to Front-End</h5>
                     </div>
                 </div>
@@ -370,8 +380,7 @@
         </div>
     </section>
 
-    <section class="container-fluid mt-3 section" id="contact"
-        style="background-image: url(/images/contact.jpg);background-repeat: no-repeat;background-size:cover;">
+    <section class="container-fluid mt-3 section contactbg" id="contact">
         <div class="container">
             <h1 class="text-center text-white">Contact Me</h1>
             <div class="row mt-4">
@@ -400,11 +409,17 @@
                 <div class="col-lg-6 text-white" style="display: grid;place-items: center;">
                     <div class="col-lg-12">
                         <h3>Contact address:</h3>
-                        <h6 class="text-dark">5/97,vaaniyar street, athipakkam,kallakurichi district</h6>
+                        <h6>&nbsp; <i class="fa fa-map-marker"></i>&nbsp; &nbsp; &nbsp;5/97,vaaniyar street,
+                            athipakkam,kallakurichi district</h6>
                         <h3>Phone:</h3>
-                        <h6><a href="tel:9513104787" class="link">9513104787</a></h6>
+                        <h6> &nbsp; <i class="fa fa-mobile-phone"></i> &nbsp; &nbsp; <a href="tel:9513104787"
+                                class="link">
+                                9513104787</a>
+                        </h6>
                         <h3>Email:</h3>
-                        <h6><a href="mailto:vinnykumar4899@gmail.com" class="link">vinnykumar4899@gmail.com</a>
+                        <h6> &nbsp; <i class="fa fa-envelope"></i> &nbsp; <a href="mailto:vinnykumar4899@gmail.com"
+                                class="link">
+                                vinnykumar4899@gmail.com</a>
                         </h6>
                     </div>
                 </div>
